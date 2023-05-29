@@ -37,6 +37,9 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\FinishLine.cs" />
+     <Compile Include="Assets\Scripts\CrashDetector.cs" />
+     <Compile Include="Assets\Scripts\DustTrail.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -763,11 +766,17 @@
     <Reference Include="Unity.2D.IK.Runtime">
         <HintPath>C:\Repos\Unity 2D\GameDevTVSnowBoarder\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>C:\Repos\Unity 2D\GameDevTVSnowBoarder\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
         <HintPath>C:\Repos\Unity 2D\GameDevTVSnowBoarder\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
         <HintPath>C:\Repos\Unity 2D\GameDevTVSnowBoarder\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>C:\Repos\Unity 2D\GameDevTVSnowBoarder\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
         <HintPath>C:\Repos\Unity 2D\GameDevTVSnowBoarder\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
@@ -801,12 +810,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>C:\Repos\Unity 2D\GameDevTVSnowBoarder\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>C:\Repos\Unity 2D\GameDevTVSnowBoarder\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-        <HintPath>C:\Repos\Unity 2D\GameDevTVSnowBoarder\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
